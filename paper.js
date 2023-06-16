@@ -16,4 +16,8 @@ function compareChoices(playerOne, playerTwo) {
         }else{
           alert ("It's a tie.")
           };
-          //reset game button
+        }
+//reset game button
+function resetGame(){
+  location.reload();
+  }
