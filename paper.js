@@ -6,18 +6,31 @@ function getComputerChoice() {
     return choices[randomIndex];
   }
 //compare the two players' choices and display result to user
-function compareChoices(playerOne, playerTwo) {
-  if (playerOne === "Rock" && playerTwo === "Scissors") {
-    alert("You win!");
-    } else if (playerOne === "Paper" && playerTwo === "Rocks") {
-      alert("You lose");
-      } else if (playerOne === "Scissors" && playerTwo === "Paper"){
-        alert("You Win!")
+function playerSelection(){
+  if (userInput === computerSelection){
+    alert("Tie");
+    document.getElementById('result').innerHTML="You tied!";
+    } else if ((computerSelection ==='scissors') && (userInput==='paper')) {
+      alert ("Player wins!");
+      document.getElementById('result').innerHTML='Player Wins!';
+      }else if((computerSelection==="rock")&&(userInput=== "scissor")) {
+        alert ('Player loses!');
+        document.getElementById('result').innerHTML ='Player Loses!' ;
         }else{
-          alert ("It's a tie.")
-          };
-        }
+          alert("Player Lose!")
+          document.getElementById('result').innerHTML ="Player lose!"
+
+}
 //reset game button
 function resetGame(){
   location.reload();
   }
+
+  function playRound(playerSelection, computerSelection) {
+    // your code here!
+    
+  }
+   
+  const playerSelection = "rock";
+  const computerSelection = getComputerChoice();
+  console.log(playRound(playerSelection, computerSelection));
