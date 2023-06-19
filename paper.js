@@ -23,9 +23,17 @@ function checkwinner(playerselection , computerselection){
 
 }
 
-function playround\(playerselection ,computerselection){
+function playround(playerselection ,computerselection){
   const result = checkwinner(playerselection,computerselection)
-}
+  if (result == "Tie"){
+    return "It is a Tie"
+  }
+  else if(result == 'Player'){
+    return 'You Win!'
+  }
+  else{
+    return 'You Lose'
+  }
 
 console.log(getComputerChoice())
 console.log ('run')
