@@ -108,14 +108,14 @@ font-size: 20px;
     text-align: center;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5f0b3d;
+    color: #0d189a;
 }
 
 #playerLabel{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5f0b3d;
+    color: #1b05aa;
     padding-left: 15px;
 }
 
@@ -124,7 +124,7 @@ font-size: 20px;
     text-align: center;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5f0b3d;
+    color: #1a0478;
     padding-left: 18px;
     padding-right: 3px;
 }
